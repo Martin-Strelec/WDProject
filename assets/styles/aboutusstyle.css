@@ -1,0 +1,12 @@
+@import url(/assets/styles/stylesheet.css);
+
+#aboutus-section {
+    background-color: var(--main-color);
+    border-radius: var(--radius);
+    padding: 20px;
+    margin: 80px auto 0 auto;
+    width: 90%;
+    column-count: 3;
+    column-rule: 2px solid var(--text-color);
+    column-gap: 40px;
+}
