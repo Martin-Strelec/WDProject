@@ -30,7 +30,7 @@ html {
 
 body {
     color: var(--text-color);
-    background-image: url("/assets/images/background_ink.png"); 
+    background-image: url("../images/background_ink.png"); 
     background-repeat: no-repeat; 
     background-size: cover;
     transition: all .6s;  

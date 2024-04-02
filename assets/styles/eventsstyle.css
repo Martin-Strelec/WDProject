@@ -1,5 +1,5 @@
-@import url(/assets/styles/stylesheet.css);
-@import url(/assets/styles/indexstyle.css);
+@import url(assets/styles/stylesheet.css);
+@import url(assets/styles/indexstyle.css);
 
 #events-page {
     border-radius: var(--radius);
