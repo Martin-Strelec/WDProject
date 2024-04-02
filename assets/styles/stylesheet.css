@@ -22,7 +22,8 @@ html {
     --font-family-h: Marcellus;
     --h1-font: 4rem;
     --h2-font: 2rem;
-    --p-font: 1.5rem;
+    --h3-font: 1.6rem;
+    --p-font: 1.2rem;
     --p-font-weight: 300;
     --radius: 20px;
 }
@@ -48,6 +49,12 @@ body h2 {
     color: var(--secndry-color);
 }
 
+body h3 {
+    font-size: var(--h3-font);
+    font-family: var(--font-family-h);
+    color: var(--text-color);
+}
+
 body a {
     font-family: var(--font-family-p);
     font-weight: var(--p-font-weight);
@@ -67,7 +74,8 @@ body p {
 }
 
 header {
-    position: fixed;    
+    position: fixed; 
+    height: 100px;   
     width: 100%;
     top: 0;
     right: 0;
@@ -90,9 +98,14 @@ main {
     text-align: center;
 }
 
-#logo {
-    width: 100px;
-    height: 100px;
+.logo {
+    height: 100%;
+    max-width: 80px;
+}
+
+#logo { 
+    height: 100%;
+    min-width: 40px;
     transition: all .6s;
 }
 
@@ -161,7 +174,7 @@ footer {
 }
 
 #footer-text {
-    width: 20%;
+    font-size: var(--p-font);
     text-align: center;
 }
 
@@ -170,8 +183,27 @@ footer {
     height: 30px;
 }
 
+@media(max-width: 1200px) {
 
-@media(max-width: 750px) {
+    :root {
+        --h1-font: 2rem;      
+        --h2-font: 1rem;
+        --h3-font: 0.9rem;
+        --p-font: 0.7rem;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    #footer-menu li {
+        font-size: 0.8rem;    
+        list-style: none;
+        text-align: right;
+    }
+}
+
+@media(max-width: 600px) {
     #menu-icon {
         visibility: visible;
         display: block;
@@ -203,4 +235,5 @@ footer {
     .navmenu.open {
         left: 0;
     }
+
 }

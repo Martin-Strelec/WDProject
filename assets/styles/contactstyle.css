@@ -1,6 +1,7 @@
 @import url(/assets/styles/stylesheet.css);
 
 #contact-page {
+    min-width: 350px;
     border-radius: var(--radius);
     background-color: var(--main-color);
     margin: auto;
