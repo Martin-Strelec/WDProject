@@ -47,42 +47,57 @@
     <script src="assets/js/script.js"></script>
     <main> <!-- Main section of content on page -->
         <h1>Contact</h1>
+
         <section id="contact-page">
-            <section id="contact-details">
-                <p>Email: johndoe@gmail.com</p>
-                <p>Phone: +353 (87) 347 403</p>
-                <p>Address: 89H2+Q3, Raghly, Ballymulderry, Co. Sligo</p>
+            <section class="contact-item">
+                <section id="contact-details">
+                    <ul>
+                        <li>Email: johndoe@gmail.com</li>
+                        <li>Phone: +353 (87) 347 403</li>
+                        <li>Address: 89H2+Q3, Raghly, Ballymulderry, Co. Sligo</li>
+                    </ul>
+                </section>
             </section>
-            <section id="contact-location">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9307.35134497272!2d-8.64688650811426!3d54.3244981653832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485edb60b3b6fd43%3A0x3a1ae9a4bd3fc9c1!2sRaghly%20Harbour!5e0!3m2!1scs!2sie!4v1710839299699!5m2!1scs!2sie" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
-            <section id="contact-form">
-                <h2>Get in touch</h2>
-                <form action="http://foo.com" method="get">
-                    <div class="contact-inputs">
-                        <label for="male"  class="required-label">Name<i style="color: red;">&#42</i> : </label>
-                        <input type="text" id="name" name="name" class="input-field" placeholder="Your name&#42" required>
-                    </div>
-                    <div class="contact-inputs">
-                        <label for="male"  class="required-label">Email<i style="color: red;">&#42</i> : </label>
-                        <input type="email" id="email" name="email" class="input-field" placeholder="Your email&#42" required>
-                    </div>
-                    <div class="contact-inputs">
-                        <div class="input-field">
-                            <input type="radio" id="male" name="gender" value="Male">
-                            <label for="male">Male</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="radio" id="female" name="gender" value="Female">
-                            <label for="female">Female</label>
-                        </div>
-                    </div>
-                    <div class="contact-inputs">
-                        <textarea name="message" placeholder="Your message" class="input-field" required></textarea>
-                    </div>                   
-                    <button type="submit" class="contact-inputs-button">Submit </button>
-                </form>
-            </section>
+                <section class="contact-item">
+                    <section id="contact-location">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9307.35134497272!2d-8.64688650811426!3d54.3244981653832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485edb60b3b6fd43%3A0x3a1ae9a4bd3fc9c1!2sRaghly%20Harbour!5e0!3m2!1scs!2sie!4v1710839299699!5m2!1scs!2sie"
+                            width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                </section>
+                <section class="contact-item">
+                    <section id="contact-form">
+                        <h2>Get in touch</h2>
+                        <form action="http://foo.com" method="get">
+                            <div class="contact-inputs">
+                                <label for="male" class="required-label">Name<i style="color: red;">&#42</i> : </label>
+                                <input type="text" id="name" name="name" class="input-field" placeholder="Your name&#42"
+                                    required>
+                            </div>
+                            <div class="contact-inputs">
+                                <label for="male" class="required-label">Email<i style="color: red;">&#42</i> : </label>
+                                <input type="email" id="email" name="email" class="input-field"
+                                    placeholder="Your email&#42" required>
+                            </div>
+                            <div class="contact-inputs">
+                                <div class="input-field">
+                                    <input type="radio" id="male" name="gender" value="Male">
+                                    <label for="male">Male</label>
+                                </div>
+                                <div class="input-field">
+                                    <input type="radio" id="female" name="gender" value="Female">
+                                    <label for="female">Female</label>
+                                </div>
+                            </div>
+                            <div class="contact-inputs">
+                                <textarea name="message" placeholder="Your message" class="input-field"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="contact-inputs-button">Submit </button>
+                        </form>
+                    </section>
+                </section>
         </section>
     </main>
     <footer> <!-- Footer grouping of content for display end of screen -->

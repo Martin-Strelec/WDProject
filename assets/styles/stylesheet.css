@@ -4,8 +4,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    list-style: none;
+    box-sizing: border-box; 
     text-decoration: none;
 }
 
@@ -30,7 +29,9 @@ html {
 
 body {
     color: var(--text-color);
-    background-color: var(--bckg-color);  
+    background-image: url("/assets/images/background_ink.png"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
     transition: all .6s;  
 }
 
@@ -44,19 +45,19 @@ body h1 {
 body h2 {
     font-family: var(--font-family-p);
     font-weight: var(--p-font-weight);
-    color: var(--text-color);
-}
-
-body h2 {
-    font-family: var(--font-family-p);
-    font-weight: var(--p-font-weight);
-    color: var(--text-color);
+    color: var(--secndry-color);
 }
 
 body a {
     font-family: var(--font-family-p);
     font-weight: var(--p-font-weight);
     color: var(--text-color);
+}
+
+body li {
+    font-size: var(--p-font);
+    font-family: var(--font-family-p);
+    font-weight: var(--p-font-weight);
 }
 
 body p {
@@ -81,6 +82,7 @@ header {
 }
 
 main {
+    min-height: 600px;
     margin: auto;
     margin-top: 200px;
     margin-bottom: 200px;
@@ -99,6 +101,7 @@ main {
 }
 
 .navmenu {
+    list-style-type: none;
     display: flex;
 }
 
@@ -142,6 +145,13 @@ footer {
 }
 
 #footer-menu ul {
+    list-style: none;
+    text-align: right;
+}
+
+#footer-menu li {
+    font-size: 1rem;    
+    list-style: none;
     text-align: right;
 }
 

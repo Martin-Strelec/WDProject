@@ -1,2 +1,68 @@
 @import url(/assets/styles/stylesheet.css);
 @import url(/assets/styles/indexstyle.css);
+
+#events-page {
+    border-radius: var(--radius);
+    background-color: var(--main-color);
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    gap: 1em;
+}
+
+.events-item {
+    width: 100%;
+    flex-grow: 1;
+    background-color: var(--bckg-color);
+    padding: 10px;
+    border-radius: var(--radius);
+}
+
+.quick-menu {
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+}
+
+.quick-menu-item {
+    background-color: var(--main-color);
+    flex-grow: 1;
+    padding: 15px;
+    border-radius: var(--radius);
+}
+
+.quick-menu-item img {
+    transition: all .6s;
+    margin: 20px 0 20px 0;
+    width: 500px;
+    height: 300px;
+    border-radius: var(--radius);
+}
+
+.quick-menu-item img:hover {
+    transform: scale(1.01);
+}
+
+.events-item table {
+    border-collapse: collapse;
+        border-radius: var(--radius);
+    background-color: var(--main-color);
+    padding: 0 15px 0 15px;
+    width: 100%;
+    text-align: left;
+}
+
+.events-item th, td {
+    padding: 15px;
+    border: 3px solid var(--bckg-color);
+}

@@ -1,12 +1,46 @@
-@import url(/assets/styles/stylesheet.css);
+/* @import url(/assets/styles/stylesheet.css); */
 
-#aboutus-section {
+#aboutus-section { 
+    display: flex; 
+    gap: 2em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--main-color);
     border-radius: var(--radius);
     padding: 20px;
     margin: 80px auto 0 auto;
-    width: 90%;
+    width: 90%;   
+}
+
+.aboutus-section-item { 
+    text-align: justify;
+    height: 100%;
+    padding: 15px;
+    background-color: var(--bckg-color);
+    width: 100%;
+    border-radius: var(--radius);
+    flex-grow: 1;
+}
+
+.aboutus-section-item article {
+    text-align: left;
     column-count: 3;
     column-rule: 2px solid var(--text-color);
     column-gap: 40px;
+}
+
+.aboutus-section-item img {
+    float: left; 
+    margin: 20px 20px 0 0;
+    width: 300px;
+    height: 200px;
+    border-radius: var(--radius);
+}
+
+.aboutus-section-item iframe {  
+    width: 100%;
+    min-height: 400px;
+    border-radius: var(--radius);
 }

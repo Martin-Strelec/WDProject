@@ -22,7 +22,7 @@
 #main-heading{
     margin: auto;
     padding: 20px;
-    color: var(--secndry-color);
+    color: var(--main-color);
     background-color: var(--main-color);
     border-radius: 20px;
     width: 50%;
@@ -52,6 +52,7 @@
 .main-event img {
     text-align: center;
     margin-top: 20px;
-    width: 90%;
+    width: 500px;
+    height: 300px;
     border-radius: var(--radius);
 }
