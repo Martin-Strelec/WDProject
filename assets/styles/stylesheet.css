@@ -90,10 +90,9 @@ header {
 }
 
 main {
-    min-height: 600px;
     margin: auto;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 50px;
     font-family: var(--font-family-h);
     text-align: center;
 }
@@ -148,7 +147,7 @@ main {
 
 footer {
     margin-top: 20%;
-    height: 100px;
+    height: 80px;
     padding: 20px;
     display: flex;
     justify-content:space-between;
@@ -174,7 +173,7 @@ footer {
 }
 
 #footer-text {
-    font-size: var(--p-font);
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -184,13 +183,6 @@ footer {
 }
 
 @media(max-width: 1200px) {
-
-    :root {
-        --h1-font: 2rem;      
-        --h2-font: 1rem;
-        --h3-font: 0.9rem;
-        --p-font: 0.7rem;
-    }
 
     header {
         height: 80px;
@@ -204,6 +196,18 @@ footer {
 }
 
 @media(max-width: 600px) {
+    
+    :root {
+        --h1-font: 2rem;      
+        --h2-font: 1.2rem;
+        --h3-font: 1rem;
+        --p-font: 1rem;
+    }
+    main {
+        margin-top: 120px;
+    }
+   
+
     #menu-icon {
         visibility: visible;
         display: block;
