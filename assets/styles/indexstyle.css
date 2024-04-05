@@ -60,20 +60,12 @@ main img {
     box-shadow: 0px 4px 6px black;
 }
 
-/*.main-event img {
+.main-event img {
     text-align: center;
     margin-top: 20px;
     width: 100%;
     height: 250px;
     border-radius: var(--radius);
-}*/
-
-
-@media(max-width: 1200px) {
-
-   
-
-    
 }
 
 @media(max-width: 600px) {
@@ -89,37 +81,4 @@ main img {
     .main-event {
         width: 350px;
     }
-
-    /*#menu-icon {
-        visibility: visible;
-        display: block;
-    }
-
-    .navmenu {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 50px 30px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 100%;
-        display: flex;
-        flex-direction: column;
-        backdrop-filter: blur(32px);
-        transition: all .6s ease-in-out;
-    }
-
-    .navmenu a {
-        text-align: center;
-        display: block;
-        padding: 0;
-        margin: 0 0 24px 0;
-        font-size: 1.5rem;
-    }
-
-    .navmenu.open {
-        left: 0;
-    }*/
-
 }
