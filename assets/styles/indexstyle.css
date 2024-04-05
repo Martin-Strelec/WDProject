@@ -1,7 +1,6 @@
 @import url(assets/styles/stylesheet.css);
 
 #scroll-sign {
-    margin: auto;
     font-size: var(--h1-font);
     color: var(--text-color);
     transition: all .4s;
@@ -44,7 +43,7 @@ main img {
     gap: 2em;
     align-items: center;
     min-width: 350px;
-    margin: 100vh auto 0 auto;
+    margin: 10vh auto 0 auto;
 }
 
 .main-event {
@@ -69,38 +68,12 @@ main img {
     border-radius: var(--radius);
 }*/
 
+
 @media(max-width: 1200px) {
-    #menu-icon {
-        visibility: visible;
-        display: block;
-    }
 
-    .navmenu {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 50px 30px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 100%;
-        display: flex;
-        flex-direction: column;
-        backdrop-filter: blur(32px);
-        transition: all .6s ease-in-out;
-    }
+   
 
-    .navmenu a {
-        text-align: center;
-        display: block;
-        padding: 0;
-        margin: 0 0 24px 0;
-        font-size: 1.5rem;
-    }
-
-    .navmenu.open {
-        left: 0;
-    }
+    
 }
 
 @media(max-width: 600px) {

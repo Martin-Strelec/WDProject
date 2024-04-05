@@ -1,7 +1,7 @@
-let menu = document.querySelector('menu-icon');
-let navmenu = document.querySelector('.navmenu');
+const hamMenu = document.querySelector('.ri-menu-3-line');
+const menu = document.querySelector('.menu');
 
-menu.onclick = () => {
-    menu.classList.toggle('bx-x');
-    navmenu.classList.toggle('open');
-}
+hamMenu.addEventListener('click', () => {
+    hamMenu.classList.toggle('active');
+    menu.classList.toggle('active');   
+})
