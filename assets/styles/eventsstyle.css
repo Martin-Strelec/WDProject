@@ -4,10 +4,8 @@
 main img {
     transition: all .6s;
     margin: 20px 0 20px 0;
-    width: 300px;
-    height: 200px;
-    min-width: 300px;
-    min-height: 200px;
+    width: 100%;
+    min-height: 150px;
     border-radius: var(--radius);
 }
 
@@ -16,7 +14,7 @@ main img {
     background-color: var(--main-color);
     margin: auto;
     margin-top: 50px;
-    width: 90%;
+    width: 75%;
     min-width: 350px;
     display: flex;
     flex-wrap: wrap;

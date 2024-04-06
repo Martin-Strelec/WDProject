@@ -7,9 +7,8 @@ h3 {
 main img {
     float: left; 
     margin: 20px 20px 20px 0;
-    width: 20%;
-    min-width: 350px;
-    min-height: 250px;
+    width: 30%;
+    min-height: 125px;
     border-radius: var(--radius);
 }
 
@@ -24,10 +23,11 @@ main img {
     border-radius: var(--radius);
     padding: 20px;
     margin: 50px auto 0 auto;
-    width: 90%;   
+    width: 75%;   
 }
 
 .aboutus-section-item { 
+    font-size: var(--p-font);
     text-align: justify;
     height: 100%;
     padding: 15px;
@@ -38,6 +38,7 @@ main img {
 }
 
 .aboutus-section-item article {
+    font-size: var(--p-font);
     text-align: left;
     column-width: 300px;
     column-count: 3;
@@ -47,7 +48,7 @@ main img {
 
 .aboutus-section-item iframe {  
     width: 100%;
-    min-height: 400px;
+    min-height: 500px;
     border-radius: var(--radius);
 }
 
@@ -55,7 +56,6 @@ main img {
 
     main img {
         width: 100%;
-        min-width: 250px;
-        min-height: 200px;
+        min-height: 150px;
     }
 }
