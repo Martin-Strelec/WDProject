@@ -1,6 +1,6 @@
 @import url(assets/styles/stylesheet.css);
 
-#scroll-sign {
+.scroll-sign {
     font-size: var(--h1-font);
     color: var(--text-color);
     transition: all .4s;
