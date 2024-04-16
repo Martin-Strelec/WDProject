@@ -23,28 +23,28 @@
     border-radius: var(--radius);
 }
 
-.contact-details {
+#contact-details {
     width: 100%;
     background-color: var(--bckg-color); 
     border-radius: var(--radius);
 }   
-.contact-details ul {
+#contact-details ul {
     list-style-type:square;
     padding-left: 40px;
     text-align: left;
 }
-.contact-details li {
+#contact-details li {
     font-size: var(--p-font);
     padding: 15px;
 }
 
-.contact-location {
+#contact-location {
     flex-grow: 1;
     border-radius: var(--radius);
     padding: 10px;
 }
 
-.contact-location iframe {
+#contact-location iframe {
     border-radius: var(--radius);
     width: 100%;
     min-height: 200px; 
@@ -59,7 +59,7 @@
     border-radius: var(--radius);
 }
 
-.contact-form form {
+#contact-form form {
     font-size: var(--p-font);
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: space-between
 }
 
-.contact-form textarea {
+#contact-form textarea {
     resize: none; 
     height: 200px;
     width: 90%;
